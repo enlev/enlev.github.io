@@ -5,6 +5,20 @@ body {
 h1 {
 	text-align:center;
 }
+#pete {
+	font-size:40px;
+	font-weight:bolder;
+	color:orange;
+	font-family: 'Archivo Black', sans-serif;
+	margin:0;
+	line-height: 70%;
+}
+#brick {
+	font-size:20px;
+	margin-left:2px;
+	line-height: 50%;
+	letter-spacing: 2.5px;
+}
 .header {
 	display:flex;
 }
@@ -14,15 +28,29 @@ h1 {
 }
 .header div {
 	margin:20px 20px 20px 40px;
+	line-height:1.6;
 	text-transform:uppercase;
 	font-size:14px;
 	font-weight:lighter;
 }
-.header div:nth-child(1){
+.header div:nth-child(2){
 	margin-left:auto;
+	margin-top:40px;
+}
+.header div:nth-child(3){
+	margin-top:40px;
 }
 .header div:nth-child(4){
+	margin-top:40px;
+}
+.header div:nth-child(5){
+	margin-top:40px;
+}
+.header div:nth-child(5){
 	margin-right:200px;
+}
+.header div:nth-child(1){
+	margin-left:300px;
 }
 /* **************************************** */
 .cover {
@@ -142,3 +170,108 @@ h1 {
 	background-color:orange;
 	border-radius:10px;
 }
+/* **************************************** */
+
+
+
+
+
+
+
+
+/* 
+.container {
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 80px 350px px 50px;
+}
+/* ***************************************** 
+.header {
+	display:flex;
+	grid-column: span 12;
+}
+.header div {
+	margin:30px 20px 15px 30px;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:lighter;
+}
+.header div:nth-child(1) {
+	margin-left:auto;
+}
+.header div:nth-child(4){
+	margin-right:180px;
+}
+/* ***************************************** 
+.cover {
+	grid-column: span 12;
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url(images/brick-bg.jpg) fixed;
+	background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+}
+.cover h1 {
+	color:white;
+	text-align:center;
+	margin-top:120px;
+	font-size:80px;
+	text-transform:uppercase;
+	font-weight:1000px;
+}
+/* ***************************************** 
+.main {
+	grid-column: span 12;
+	background-color:skyblue;
+}
+.main h1 {
+	text-align:center;
+	text-transform:uppercase;
+	font-size:25px;
+	margin-top:40px;
+}
+.footer {
+	grid-column: span 12;
+	background-color:black;
+	margin-top:50px;
+}
+/* ***************************************** 
+.underline {
+	width:180px;
+	display:flex;
+	margin:auto;
+	grid-column: span 12;
+}
+.underline div {
+	border:1px solid black;
+	height:20px;
+	width:20px;
+}
+.underline div{
+	height:1px;
+	width:80px;
+	border:1px solid orange;
+	margin-top:2.8px;
+	background-color:orange;
+}
+.underline div:nth-child(2){
+	height:5px;
+	width:5px;
+	border:2px solid black;
+	margin: 0 5px 0 5px;
+	background-color:white;
+}
+/* ***************************************** 
+.services {
+	display:flex;
+	width:50%;
+	justify-content:center;
+	margin:auto;
+	background-color:wheat;
+}
+.services div {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	margin: 40px;
+}
+
+*/
