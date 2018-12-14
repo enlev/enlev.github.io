@@ -1,0 +1,48 @@
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 80px 350px 350px 50px;
+}
+/* ***************************************** */
+.header {
+	display:flex;
+	grid-column: span 12;
+}
+.header div {
+	margin:30px 20px 15px 30px;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:lighter;
+}
+.header div:nth-child(1) {
+	margin-left:auto;
+}
+.header div:nth-child(4){
+	margin-right:180px;
+}
+/* ***************************************** */
+.cover {
+	grid-column: span 12;
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url(images/brick-bg.jpg) fixed;
+	background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+}
+.cover h1 {
+	color:white;
+	text-align:center;
+	margin-top:120px;
+	font-size:80px;
+	text-transform:uppercase;
+	font-weight:1000px;
+}
+/* ***************************************** */
+.main {
+	grid-column: span 12;
+}
+.footer {
+	grid-column: span 12;
+}
