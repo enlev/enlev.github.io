@@ -83,10 +83,6 @@ h1 {
 	border:1px solid black;
 	margin:60px
 }
-
-
-
-
 /* **************************************** */
 .footer {
 	display:flex;
@@ -137,6 +133,12 @@ h1 {
 	margin: 0 60px 0 60px;
 }
 #contact {
-	min-height:50px;
-	min-width:200px;
+	min-height:40px;
+	min-width:160px;
+	padding-top:12px;
+	font-size:20px;
+	border:1px solid orange;
+	text-align:center;
+	background-color:orange;
+	border-radius:10px;
 }
