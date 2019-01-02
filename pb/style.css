@@ -132,43 +132,28 @@ h1 {
 	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url(images/brick-cover.jpg) fixed;
 	background-size:cover;
 	font-family: 'Open Sans', sans-serif;
-	height:40vh;
-	padding-top:100px;
+	min-height:40vh;
 	box-sizing: border-box;
+	color:white;
+	padding:40px;
 }
 .parallax h1{
-	color:white;
 	font-size:50px;
-	font-weight:1000px;
 }
-.parallax div {
-	color:white;
-	font-size:40px;
-	font-weight:bolder;
+.parallax h2{
+	font-size:30px;
 }
-.cta {
+#contactus{
 	display:flex;
 	justify-content: center;
 }
-#number {
-	min-height:50px;
-	min-width:200px;
-}
-#line{
-	min-width:1px;
-	min-height:50px;
-	background-color:white;
-	margin: 0 60px 0 60px;
-}
-#contact {
-	min-height:40px;
-	min-width:160px;
-	padding-top:12px;
-	font-size:20px;
-	border:1px solid orange;
-	text-align:center;
-	background-color:orange;
+#contactbutton{
 	border-radius:10px;
+	background-color:orange;
+	padding:10px;
+}
+#contactnumber{
+	padding:10px;
 }
 /* **************************************** */
 
